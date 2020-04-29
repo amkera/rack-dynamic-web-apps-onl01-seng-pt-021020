@@ -12,9 +12,15 @@ class Application
     resp.write "#{num_3}\n"
     
     if num_1 == num_2 && num_2 == num_3
+<<<<<<< HEAD
       resp.write "You Win"
     else 
       resp.write "You Lose"
+=======
+      resp.write "You win"
+    else 
+      resp.write "You lose"
+>>>>>>> cd6e9a88d28e1fa412b1baa938d4783cb83de44b
     end 
     
     resp.finish
